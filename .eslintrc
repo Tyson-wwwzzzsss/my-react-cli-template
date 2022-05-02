@@ -1,0 +1,14 @@
+{
+    "extends": [
+        "eslint-config-ali",
+        "eslint-config-ali/react"
+    ],
+    "rules": {
+        "semi": [2, "never"],
+        "no-console":"off",
+        "react/no-array-index-key": "off"
+    },
+    "globals": {
+        "GLOBAL_ENV":true
+    }
+}
